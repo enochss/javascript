@@ -1,0 +1,75 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#addTask{
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #3f28a7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+placeholder{
+    outline: #3f28a7;
+}
+
+body.light-mode {
+    background-color: #f0f0f0;
+    color: 333;
+}
+
+body.dark-mode {
+    background-color: rgb(6, 0, 63);
+    color: white;
+}
+
+
+#toggleMode {
+    position: fixed;
+    top: 20px;
+    right: 20px; 
+    background-color: #0066cc; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#toggleMode:hover {
+    background-color: #005bb5;
+}
